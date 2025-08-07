@@ -59,6 +59,16 @@ export const presidentData: PresidentData = {
 // Team Members Data
 export const teamMembers: TeamMember[] = [
   {
+    name: "Sushant Gyawali",
+    role: "IP-President",
+    image: "./sushant.png", 
+    social: {
+      facebook: "",
+      instagram: "",
+      linkedin: ""
+    },
+  },
+   {
     name: "Rijan Shrestha ",
     role: "Vice-President ",
     image: "./rijan.jpeg", 
@@ -79,17 +89,47 @@ export const teamMembers: TeamMember[] = [
     }
     
   },
-  {
-    name: "Santosh Bhandari",
-    role: "IT Head",
-    image: "/santosh.jpg",
+    {
+    name: "Faizan Khan",
+    role: "leader of 12 Morning",
+    image: "/faizan.jpeg",
     social: {
-      facebook: "https://www.facebook.com/share/1C3cmLcgJR/",
-      instagram: "https://www.instagram.com/the_santosh97",
+      facebook: "",
+      instagram: "",
       linkedin: ""
     }
   },
-  {
+    {
+    name: "karishma Chaudhary",
+    role: "Joint Secretary",
+    image: "",
+    social: {
+      facebook: "https://www.facebook.com/share/175geE2oSc/?mibextid=wwXIfr",
+      instagram: "",
+      linkedin: ""
+    }
+  },
+    {
+    name: "Kushal Bhandari",
+    role: "Treasurer",
+    image: "./kushal.jpeg",
+    social: {
+      facebook: "",
+      instagram: "",
+      linkedin: ""
+    }
+  },
+    {
+    name: "Sadikshya Sharma",
+    role: " Joint Treasurer",
+    image: "./sadikshya.jpeg",
+    social: {
+      facebook: "",
+      instagram: "",
+      linkedin: ""
+    }
+  },
+    {
     name: "Pawan Chaudhary ",
     role: "Head of Director",
     image: "/pawan.jpg",
@@ -100,9 +140,21 @@ export const teamMembers: TeamMember[] = [
     }
   },
   {
-    name: "Faizan Khan",
-    role: "leader of 12 Morning",
-    image: "/faizan.jpeg",
+    name: "Santosh Bhandari",
+    role: "IT Head",
+    image: "/santosh.jpg",
+    social: {
+      facebook: "https://www.facebook.com/share/1C3cmLcgJR/",
+      instagram: "https://www.instagram.com/the_santosh97",
+      linkedin: ""
+    }
+  },
+
+
+  {
+    name: "Rashmi Bishowkarma",
+    role: "Cultural Department Head",
+    image: "./rashmi.jpg",
     social: {
       facebook: "",
       instagram: "",
@@ -110,85 +162,16 @@ export const teamMembers: TeamMember[] = [
     }
   },
   {
-    name: "Kushal Bhandari",
-    role: "Treasurer",
-    image: "./kushal.jpg",
+    name: "Sandeep Pandey",
+    role: "Education & Sanitation Head",
+    image: "./sandeep.jpg",
     social: {
       facebook: "",
       instagram: "",
-      linkedin: ""
-    }
-  },
-  {
-    name: "Kritika Kandel",
-    role: "Member",
-    image: "./kritika.jpg",
-    social: {
-      facebook: "https://www.facebook.com/ananya.shahhh17?mibextid=ZbWKwL",
-      instagram: "https://www.instagram.com/papario.w",
-      linkedin: "#"
-    }
-  },
-  {
-    name: "Sanjok Baidwar",
-    role: "Member ",
-    image: "",
-    social: {
-      facebook: "https://www.facebook.com/share/1FpYMh98CE/?mibextid=wwXIfr",
-      instagram: "https://www.instagram.com/sadikshyahhh",
-      linkedin: "#"
-    }
-  },
-  {
-    name: "Demo",
-    role: "Member",
-    image: "",
-    social: {
-      facebook: "https://www.facebook.com/share/175geE2oSc/?mibextid=wwXIfr",
-      instagram: "",
-      linkedin: ""
-    }
-  },
-  {
-    name: "Demo",
-    role: "Member ",
-    image: "",
-    social: {
-      facebook: "#",
-      instagram: "#",
-      linkedin: "#"
-    }
-  },
-  {
-    name: "Demo",
-    role: "Social Media",
-    image: "/team/ryan-lee.jpg",
-    social: {
-      facebook: "#",
-      instagram: "#",
-      linkedin: "#"
-    }
-  },
-  {
-    name: "Demo",
-    role: "Designer",
-    image: "/team/zara-ahmed.jpg",
-    social: {
-      facebook: "#",
-      instagram: "#",
-      linkedin: "#"
-    }
-  },
-  {
-    name: "Demo",
-    role: "Developer",
-    image: "/team/tom-garcia.jpg",
-    social: {
-      facebook: "#",
-      instagram: "#",
       linkedin: "#"
     }
   }
+
 ];
 
 // Advisors Data
