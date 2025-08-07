@@ -154,7 +154,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Rashmi Bishowkarma",
     role: "Cultural Department Head",
-    image: "./rashmi.jpg",
+    image: "./Rashmi.jpg",
     social: {
       facebook: "",
       instagram: "",

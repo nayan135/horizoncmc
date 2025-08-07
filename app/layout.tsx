@@ -3,29 +3,29 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "CMC - Co-Curricular Management Committee | New Horizon College",
-    template: "%s | CMC NHC"
+    default: "CMC Club of New Horizon College",
+    template: "%s | CMC Club NHC"
   },
-  description: "Official website of the Co-Curricular Management Committee (CMC) at New Horizon College, Butwal. Organizing and managing co-curricular activities, events, and student engagement programs.",
+  description: "Official website of the Computer & Management Club (CMC) at New Horizon College, Butwal. Driving innovation, building tomorrow through collaborative excellence in technology and management.",
   keywords: [
-    "CMC",
-    "Co-Curricular Management Committee",
+    "CMC Club",
     "New Horizon College",
+    "Computer Management Club",
     "Butwal",
     "Nepal",
-    "Student Activities",
-    "Events",
+    "Technology",
     "Management",
     "Students",
-    "Co-curricular",
-    "College Committee"
+    "Innovation",
+    "Programming",
+    "IT Club"
   ],
   authors: [
     { name: "Narayan Bhusal", url: "https://naranbhusal02.me" },
     { name: "Nayan Acharya", url: "https://nayan135.com.np" }
   ],
-  creator: "CMC Development Team",
-  publisher: "Co-Curricular Management Committee of New Horizon College",
+  creator: "CMC Club Development Team",
+  publisher: "CMC Club of New Horizon College",
   formatDetection: {
     email: false,
     address: false,
@@ -39,22 +39,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://cmcnhc.com",
-    title: "CMC - Co-Curricular Management Committee | New Horizon College",
-    description: "Official website of the Co-Curricular Management Committee (CMC) at New Horizon College, Butwal. Organizing and managing co-curricular activities and student engagement programs.",
-    siteName: "CMC NHC",
+    title: "CMC Club of New Horizon College",
+    description: "Official website of the Computer & Management Club (CMC) at New Horizon College, Butwal. Driving innovation, building tomorrow through collaborative excellence.",
+    siteName: "CMC Club NHC",
     images: [
       {
         url: "/image.png",
         width: 1200,
         height: 630,
-        alt: "Co-Curricular Management Committee of New Horizon College",
+        alt: "CMC Club of New Horizon College",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "CMC - Co-Curricular Management Committee | New Horizon College",
-    description: "Organizing and managing co-curricular activities, events, and student engagement programs at New Horizon College, Butwal.",
+    title: "CMC Club of New Horizon College",
+    description: "Driving innovation, building tomorrow through collaborative excellence in technology and management.",
     images: ["/image.png"],
   },
   robots: {
@@ -74,12 +74,10 @@ export const metadata: Metadata = {
   category: "education",
   icons: {
     icon: [
-      { url: "/image.png", sizes: "any" },
-      { url: "/image.png", sizes: "32x32", type: "image/png" },
-      { url: "/image.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
     ],
-    apple: "/image.png",
-    shortcut: "/image.png",
+    apple: "/apple-touch-icon.png",
   },
   manifest: "/manifest.json",
   themeColor: "#E86E1C",
@@ -97,6 +95,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#E86E1C" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+      </head>
       <body>{children}</body>
     </html>
   );

@@ -115,8 +115,21 @@ export default function CMCClubWebsite() {
       {/* Hero Section */}
       <section
         id="home"
-        className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-orange-50/90 to-orange-100/90"
+        className="relative min-h-screen flex items-center justify-center overflow-hidden"
       >
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/main.jpeg"
+            alt="CMC Background"
+            fill
+            className="object-cover"
+            priority
+          />
+          {/* Overlay for better text readability */}
+          <div className="absolute inset-0 bg-black/40"></div>
+        </div>
+
         {/* Background with curved design */}
         <svg
           className="absolute bottom-0 left-0 w-full h-64 z-10"
@@ -127,17 +140,17 @@ export default function CMCClubWebsite() {
           <path
             d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,133.3C672,139,768,181,864,186.7C960,192,1056,160,1152,138.7C1200,117,1248,107,1296,112C1344,117,1392,139,1440,154.7L1488,170.7L1488,320L1440,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
             fill="#E86E1C"
-            fillOpacity="0.1"
+            fillOpacity="0.2"
           />
         </svg>
 
         <div className="relative z-20 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 animate-fade-in">
-            Welcome to the <span className="text-orange-600">CMC Club</span> of
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in drop-shadow-lg">
+            Welcome to the <span className="text-orange-400">CMC</span> of
             NHC
           </h1>
-          <p className="text-xl sm:text-2xl text-gray-600 mb-8 animate-fade-in-delay">
-            Driving Innovation, Building Tomorrow
+          <p className="text-xl sm:text-2xl text-white/90 mb-8 animate-fade-in-delay drop-shadow-md">
+            Co-Curricular Management Committee
           </p>
           <button
             onClick={() => scrollToSection("president")}
